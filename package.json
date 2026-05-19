@@ -1,6 +1,6 @@
 {
   "name": "@p-vbordei/prompt-shield",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Detect prompt-injection patterns in untrusted text. Pattern-based scanner with severity levels, custom rules, and code-fence stripping.",
   "keywords": [
     "llm",
