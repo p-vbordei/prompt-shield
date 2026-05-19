@@ -5,7 +5,7 @@
 A pattern-based detector for prompt-injection attempts in untrusted text. Useful as a pre-flight check before sending user-supplied content to an LLM, or as a post-flight check on tool outputs that may have been poisoned.
 
 ```ts
-import { scan, redact } from "prompt-shield";
+import { scan, redact } from "@p-vbordei/prompt-shield";
 
 const r = scan(userInput);
 if (r.suspicious) {
@@ -20,7 +20,7 @@ const sanitized = redact(userInput);
 ## Install
 
 ```sh
-npm install prompt-shield
+npm install @p-vbordei/prompt-shield
 ```
 
 ## What it catches
@@ -73,7 +73,7 @@ Replaces every match with `[REDACTED]` (or `opts.replacement`). Preserves the re
 ### Adding your own rules
 
 ```ts
-import { DEFAULT_PATTERNS, scan } from "prompt-shield";
+import { DEFAULT_PATTERNS, scan } from "@p-vbordei/prompt-shield";
 
 const patterns = [
   ...DEFAULT_PATTERNS,
