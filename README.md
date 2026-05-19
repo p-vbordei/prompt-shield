@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/p-vbordei/prompt-shield/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/prompt-shield/actions/workflows/ci.yml)
 
+[![npm](https://img.shields.io/npm/v/%40p-vbordei%2Fprompt-shield.svg)](https://www.npmjs.com/package/@p-vbordei/prompt-shield)
+[![downloads](https://img.shields.io/npm/dm/%40p-vbordei%2Fprompt-shield.svg)](https://www.npmjs.com/package/@p-vbordei/prompt-shield)
+[![bundle](https://img.shields.io/bundlejs/size/%40p-vbordei%2Fprompt-shield)](https://bundlejs.com/?q=%40p-vbordei%2Fprompt-shield)
+
 A pattern-based detector for prompt-injection attempts in untrusted text. Useful as a pre-flight check before sending user-supplied content to an LLM, or as a post-flight check on tool outputs that may have been poisoned.
 
 ```ts
